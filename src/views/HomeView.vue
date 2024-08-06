@@ -1,9 +1,12 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import { RouterLink } from "vue-router";
+import HeaderSection from '../components/HeaderSection.vue'
 </script>
 
 <template>
+  
+
   <main>
-    <TheWelcome />
+   <HeaderSection />
   </main>
 </template>
