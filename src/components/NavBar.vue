@@ -3,18 +3,19 @@ import { RouterLink } from "vue-router";
 </script>
 
 <template>
-  <nav class="w-full h-20 bg-white  border-b border-[#f8cbce]">
-    <div class="flex items-center justify-between p-5 mx-32">
+  <nav class="w-full h-16 lg:w-full lg:h-18 bg-[#fff] border-b border-lighterRed">
+    <div class="bg-white flex items-center justify-between p-3 mx-2 md:p-2 lg:mx-32 lg:p-2">
       <div>
-        <img class="w-32 h-12" src="../assets/logo-color.jpg" alt="installa logo">
+        <img class="w-24 lg:w-32 lg:h-12" src="../assets/logo-color.jpg" alt="installa logo">
       </div>
       <div>
-        <ul class="flex items-center gap-16">
+        <ul class="hidden md:flex items-center md:gap-10 lg:gap-18">
           <router-link to="/" class="text-md ">Home</router-link>
-          <li>About Us</li>
-          <li>Services</li>
-          <li>Careers</li>
-          <router-link to="/contact-us" class="w-44 h-10 font-medium text-md border border-[#fe4e5a] rounded-full flex items-center justify-center hover:bg-[#fe4e5a] hover:text-white" >Contact Us</router-link>
+          <router-link to="/about-us" class="text-md ">About Us</router-link>
+          <router-link to="/services" class="text-md ">Services</router-link>
+          <router-link to="/careers" class="text-md ">Careers</router-link>
+      
+          <router-link to="/contact-us" class="w-44 h-10 font-medium text-md border border-red rounded-full flex items-center text-red justify-center hover:bg-red hover:text-[#fff]" >Contact Us</router-link>
         </ul>
       </div>
     </div>
