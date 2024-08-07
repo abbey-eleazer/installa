@@ -6,7 +6,10 @@ import { RouterLink } from "vue-router";
   <nav class="w-full h-16 lg:w-full lg:h-18 bg-[#fff] border-b border-lighterRed">
     <div class="bg-white flex items-center justify-between p-3 mx-2 md:p-2 lg:mx-32 lg:p-2">
       <div>
-        <img class="w-24 lg:w-32 lg:h-12" src="../assets/logo-color.jpg" alt="installa logo">
+        <router-link to="/" class="text-md ">
+          <img class="w-24 lg:w-32 lg:h-12" src="../assets/logo-color.jpg" alt="installa logo">
+        </router-link>
+        
       </div>
       <div>
         <ul class="hidden md:flex items-center md:gap-10 lg:gap-18">

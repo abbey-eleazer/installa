@@ -8,7 +8,6 @@ import Card from './Card.vue';
   <div class=" flex flex-wrap justify-between gap-24">
     <Card class="w-[47rem] h-[21rem]">
         <img src="../assets/concept 1.png" alt="icon" class="mx-auto pt-8 pb-8" />
-        
         <h3 class=" font-bold text-3xl text-center mb-2">
           Clear Concepts
         </h3>
