@@ -57,7 +57,7 @@ import CardTwo from './SubHero.vue'
             future projects.
           </p>
         
-          <router-link to="/contact-us" class="w-44 h-10 mt-24 font-medium text-red  text-md border border-red rounded-full flex items-center justify-center hover:bg-red hover:text-[#fff] ml-[30rem]" >
+          <router-link to="/contact-us" class="w-44 h-10 mt-24 font-medium text-red  text-md border border-red rounded-full flex items-center justify-center bg-[#fff] hover:bg-red hover:text-[#fff] ml-[30rem]" >
             Get started now
           </router-link>
         </div>
@@ -83,7 +83,7 @@ import CardTwo from './SubHero.vue'
             With our work, we strive to provide you with business expansion opportunities, an increase of brand recognition, and higher customer purchase rates. Moreover, our vast experience in the field enables a more personalized, flexible approach when it comes to the strategic business planning and marketing strategy set up of our client’s companies.
           </p>
         
-          <router-link to="/contact-us" class="w-44 h-10 font-medium text-md text-red border border-red rounded-full flex items-center justify-center hover:bg-red hover:text-[#fff] mt-24" >
+          <router-link to="/contact-us" class="w-44 h-10 font-medium text-md text-red border border-red rounded-full flex items-center justify-center bg-[#fff] hover:bg-red hover:text-[#fff] mt-24" >
             More about us
           </router-link>
         </div>
