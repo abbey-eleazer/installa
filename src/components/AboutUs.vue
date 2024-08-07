@@ -32,7 +32,7 @@ import CardTwo from './SubHero.vue';
 
 <main class="mx-32 mb-32">
   <CardTwo class="mt-24">
-      <img src="../assets/29138-lottie-animation 1.png" alt="animation image">
+      <img src="../assets/29138-lottie-animation 1.png" alt="animation image" aria-controls="auto-play">
       <div class="pt-40">
         <h3 class=" font-bold text-3xl mb-5">
           We Are Passionate About Advancing Your Online Impact
@@ -64,7 +64,7 @@ import CardTwo from './SubHero.vue';
         <h3 class=" font-bold text-2xl pt-12">
           Installa Marketing is your One-Stop-Solution for Campaign Performance Enhancement and Keyword Targeting Initiatives.
         </h3>
-        <router-link to="/contact-us" class="w-44 h-10 mt-24 translate-x-[30rem] font-medium text-md border border-red rounded-full flex items-center text-red justify-center hover:bg-red hover:text-[#fff]" >Contact Us</router-link>
+        <router-link to="/contact-us" class="w-44 h-10 mt-24 translate-x-[30rem] font-medium text-md border border-red rounded-full flex items-center text-red justify-center bg-[#fff] hover:bg-red hover:text-[#fff]" >Contact Us</router-link>
       </div>
   </CardTwo>
 </main>

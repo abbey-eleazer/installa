@@ -18,7 +18,7 @@ import { RouterLink } from "vue-router";
           <router-link to="/services" class="text-md ">Services</router-link>
           <router-link to="/careers" class="text-md ">Careers</router-link>
       
-          <router-link to="/contact-us" class="w-44 h-10 font-medium text-md border border-red rounded-full flex items-center text-red justify-center hover:bg-red hover:text-[#fff]" >Contact Us</router-link>
+          <router-link to="/contact-us" class="w-44 h-10 font-medium text-md border border-red rounded-full flex items-center text-red justify-center bg-[#fff] hover:bg-red hover:text-[#fff]" >Contact Us</router-link>
         </ul>
       </div>
     </div>

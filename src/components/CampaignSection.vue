@@ -58,7 +58,7 @@ import Card from './Card.vue';
       <p class="text-xl text-center">
         Further develop your successful online presence and scale up your business.
       </p>
-      <router-link to="/contact-us" class="w-44 h-10 mt-24 font-medium text-red text-md border border-red rounded-full flex items-center justify-center hover:bg-red hover:text-[#fff] mx-auto" >
+      <router-link to="/contact-us" class="w-44 h-10 mt-24 font-medium text-red text-md border border-red rounded-full flex items-center justify-center bg-[#fff] hover:bg-red hover:text-[#fff] mx-auto" >
             Get in touch
           </router-link>
     </div>
