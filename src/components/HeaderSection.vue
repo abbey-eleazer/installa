@@ -1,5 +1,5 @@
 <template>
-  <header class="mx-5 md:mx-12 lg:mx-32 mb-40 lg:pt-2">
+  <header class="mx-5 mb-20 md:mx-12 lg:mx-32 md:mb-40 lg:pt-2">
     <div class="flex flex-col-reverse md:flex-row items-center">
       <div class="flex-1 pt-20  ">
         <h3 class="text-sm lg:text-lg font-bold lg:mb-3 bg-[rgba(255,255,255,.5)] lg:bg-transparent">
