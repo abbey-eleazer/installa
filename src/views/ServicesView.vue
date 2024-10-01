@@ -1,8 +1,7 @@
 <script setup>
-import ServicesSection  from '@/components/ServicesSection.vue';
+import ServicesPage from '@/components/ServicesPage.vue';
 </script>
 
 <template>
-  
-  <ServicesSection />
+  <ServicesPage />
 </template>

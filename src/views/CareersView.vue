@@ -1,6 +1,7 @@
+<script setup>
+import CareersPage from '@/components/CareersPage.vue'
+</script>
+
 <template>
-  <h1 class="text-5xl">
-    careers
-  </h1>
-  <RouterView />
+  <CareersPage />
 </template>
