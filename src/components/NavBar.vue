@@ -13,10 +13,10 @@ import { RouterLink } from "vue-router";
       </div>
       <div>
         <ul class="hidden md:flex items-center md:gap-10 lg:gap-18">
-          <router-link to="/" class="text-md ">Home</router-link>
-          <router-link to="/about-us" class="text-md ">About Us</router-link>
-          <router-link to="/services" class="text-md ">Services</router-link>
-          <router-link to="/careers" class="text-md ">Careers</router-link>
+          <router-link active-class="text-red" to="/" class="text-md ">Home</router-link>
+          <router-link active-class="text-red" to="/about-us" class="text-md ">About Us</router-link>
+          <router-link active-class="text-red" to="/services" class="text-md ">Services</router-link>
+          <router-link active-class="text-red" to="/careers" class="text-md ">Careers</router-link>
       
           <router-link to="/contact-us" class="w-44 h-10 font-medium text-md border border-red rounded-full flex items-center text-red justify-center bg-[#fff] hover:bg-red hover:text-[#fff]" >Contact Us</router-link>
         </ul>
