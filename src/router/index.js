@@ -5,7 +5,6 @@ import { createRouter, createWebHistory } from 'vue-router'
 import ServicesView from '@/views/ServicesView.vue'
 import CareersJobForm from '@/components/CareersJobForm.vue'
 import CareersJobsDetail from '@/components/CareersJobsDetail.vue'
-import ThankYou from '@/components/ThankYou.vue'
 import ContactView from '@/views/ContactView.vue'
 
 const router = createRouter({
