@@ -1,5 +1,7 @@
 <script setup>
 import JobForm from './JobForm.vue';
+
+
 </script>
 
 <template>
@@ -13,5 +15,7 @@ import JobForm from './JobForm.vue';
     </div>
   </header>
   <!-- <JobForm /> -->
-  <JobForm />
+  <JobForm  />
+
+ 
 </template>

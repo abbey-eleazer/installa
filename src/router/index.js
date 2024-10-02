@@ -5,6 +5,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 import ServicesView from '@/views/ServicesView.vue'
 import CareersJobForm from '@/components/CareersJobForm.vue'
 import CareersJobsDetail from '@/components/CareersJobsDetail.vue'
+import ThankYou from '@/components/ThankYou.vue'
+import ContactView from '@/views/ContactView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -38,6 +40,12 @@ const router = createRouter({
       path: '/careers/apply',
       name: 'careers-job-form',
       component: CareersJobForm,
+    },
+   
+    {
+      path: '/contact-us',
+      name: 'contact-us',
+      component: ContactView,
     },
    
   ]
