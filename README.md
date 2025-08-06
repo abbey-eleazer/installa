@@ -1,35 +1,29 @@
-# installa
+# A website project built with Vue and TailwindCss
 
-This template should help get you started developing with Vue 3 in Vite.
+This project was built to test my skills is vue and css.
 
-## Recommended IDE Setup
+* create routes and link them to the pages.
+* website should be responsive on various screen sizes.
+* create a functional menu button 
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## URL to deployed site
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+```sh
+https://installa-marketing.netlify.app/
+```
 
 ## Project Setup
+
+* clone this project
+```sh
+git clone https://github.com/abbey-eleazer/installa.git
+```
+*install dependancies
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
-
 ```sh
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
 ```
