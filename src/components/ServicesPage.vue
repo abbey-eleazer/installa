@@ -5,7 +5,7 @@ import Card from './Card.vue';
 
 <template>
   <header class="mx-8 md:mx-24 xl:mx-32">
-    <h1 class="c">Our Services</h1>
+    <h1  class="text-3xl lg:text-6xl font-bold text-center text-darkgray mb-2 mt-12">Our Services</h1>
     <p class="text-lg text-center pb-12">We are an extension of your team.</p>
     <img src="../assets/services.png" alt="service image" class="mx-auto w-[30rem] md:w-[50rem] 2xl:w-[60rem]" />
 
